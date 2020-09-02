@@ -1,0 +1,38 @@
+.table {
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+.table td:nth-of-type(2) {
+    font-weight: bold;
+    text-align: left;
+    color: #87292a;
+    padding-right: 100px;
+}
+
+.table td:last-of-type {
+    padding: 0 20px;
+}
+
+.table tr:first-of-type > td:nth-of-type(2) {
+    font-weight: normal;
+}
+
+.table tr:first-of-type > td {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    color: #87292a;
+}
+
+.table tr:first-of-type > td:last-of-type {
+    color: black;
+}
+
+.table tr:nth-of-type(2n-1) > td {
+    background-color: #eee;
+}
